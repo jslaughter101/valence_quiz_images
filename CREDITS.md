@@ -61,6 +61,16 @@ satisfied above. Where no author is supplied, crediting title + source + licence
 |---|---|---|
 | `gen_visible-light-spectrum.png` | Visible spectrum, 400–700 nm | No suitable PD/CC0 Commons version found. Replaces four copies of a watermarked sciencenotes.org graphic. |
 | `gen_polyatomic-ions.png` | Polyatomic ion reference table | No Commons equivalent — it's this course's specific ion list. |
+| `gen_em-spectrum-no-numbers-cb.png` | EM spectrum, regions labelled, **no numeric values** | Colour-blind-safe rebuild of an image Canvas never bundled. Used by 29 questions. |
+| `gen_em-spectrum-cb.png` | EM spectrum **with wavelengths** (for c = λν) | Colour-blind-safe rebuild of an image Canvas never bundled. |
+| `gen_visible-ranges-cb.png` | Visible colours **named + nm ranges** | Colour-blind-safe rebuild of an image Canvas never bundled. |
+| `gen_d-block-orbital-d3.png` | d sublevel: 5 orbital boxes, 3 electrons (d³) | Rebuild of an image Canvas never bundled. |
+
+**Accessibility note.** The four `*-cb` images replace the instructor's own colour-blind-safe variants,
+which Canvas referenced but failed to export. They are rebuilt to be genuinely colour-blind-safe:
+**every band carries a text label** (and the EM regions are greyscale-distinct), so colour is never the
+only channel carrying information. A student with colour-vision deficiency can answer "which colour has
+the shortest wavelength?" from the labels alone.
 
 ## Carried over from Canvas — `canvas_*` (107 files)
 
